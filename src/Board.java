@@ -5,13 +5,13 @@ public class Board extends Frame{
     public static final long serialVersionUID = 78;
     int width = 1000;
     int height = 1000;
-    Board(){
+    public Board(){
         super("Game of HELL");
         config();
         setVisible(true);
 
     }    
-    Board(int width, int height){
+    public Board(int width, int height){
         super("Custom: Game of hell");
         this.width = width; 
         this.height = height; 
