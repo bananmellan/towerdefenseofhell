@@ -1,5 +1,6 @@
 import java.awt.*; //Graphics
 import java.awt.event.*; //Events triggered by mouse or keys
+// Board background is prelimenairy #00ff40
 
 public class Board extends Frame{
     public static final long serialVersionUID = 78;
